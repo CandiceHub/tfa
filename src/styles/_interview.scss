@@ -1,15 +1,62 @@
 /*Section Interview*/
 
-.interview{
+.interview {
     background-color: #404040;
     margin-bottom: 55px;
+
+
 }
-.titre__interview{
+
+.titre__interview {
     color: white;
+
 }
-.numero{
-   font-family:'Italiana', serif;
-   color: #D9C39A;
-   font-size: 280px;
-   opacity: 50%; 
+
+.num__question {
+    position: relative;
+    padding-top: 114px;
+
+    .numero {
+        font-family: 'Italiana', serif;
+        color: #D9C39A;
+        font-size: 280px;
+        opacity: 50%;
+        position: absolute;
+        margin-left: 15px;
+        top: 0;
+        padding: 0;
+        line-height: 0.7;
+    }
+
+    .question {
+        position: relative;
+        font-size: 29px;
+        font-weight: 600;
+        color: white;
+
+    }
+}
+
+.guillemet {
+    width: 75px;
+    margin-left: 25px;
+    fill: #D9C39A;
+}
+
+.barLeft {
+    background-color: #D9C39A;
+    width: 150px;
+    height: 5px;
+    margin-top: 60px;
+    margin-left: 15px;
+}
+
+.barRight {
+    position: absolute;
+    right: 0;
+    background-color: #D9C39A;
+    width: 150px;
+    height: 5px;
+    margin-top: 0;
+    margin-right: 15px;
 }
