@@ -8,3 +8,11 @@
 .titre__perso {
     color: #D9C39A;
 }
+
+
+@media (min-width: 768px) {
+    .perso {
+        padding-top: 100px;
+        margin-top: 245px;
+    }
+}

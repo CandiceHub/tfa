@@ -66,3 +66,45 @@
     color: white;
     text-align: center;
 }
+
+/* Tablette */
+@media (min-width: 768px) {
+    .num__question {
+        position: relative;
+        padding-top: 114px;
+
+        .numero {
+            font-family: 'Italiana', serif;
+            color: #D9C39A;
+            font-size: 308px;
+            opacity: 50%;
+            position: absolute;
+            margin-left: 35px;
+            top: 0;
+            padding: 0;
+            line-height: 0.4;
+        }
+
+        .question {
+            position: relative;
+            font-size: 32px;
+            font-weight: 600;
+            color: white;
+
+        }
+    }
+
+    .guillemet {
+        width: 75px;
+        margin-left: 35px;
+        fill: #D9C39A;
+    }
+
+    .barLeft {
+        margin-left: 35px;
+    }
+
+    .barRight {
+        margin-right: 35px;
+    }
+}
