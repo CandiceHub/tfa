@@ -24,13 +24,33 @@
 
 <body>
   <header class="header">
+
+    <nav class="menu">
+      <button title="MenuBurger" class="menu__burger">
+        <svg class="menu__svg" xmlns="http://www.w3.org/2000/svg">
+          <g>
+            <path d="M0 1.5h59" data-name="Ligne 24" />
+            <path d="M0 22.5h59" data-name="Ligne 25" />
+            <path d="M0 42.5h59" data-name="Ligne 26" />
+          </g>
+        </svg>
+      </button>
+      <ul class="menu__liste">
+        <li class="menu__el menu__el--0"><a href="#debut">Début</a></li>
+        <li class="menu__el"><a href="#first">Rencontre</a></li>
+        <li class="menu__el"><a href="#sec">Interview</a></li>
+        <li class="menu__el"><a href="#third">Solutions</a></li>
+        <li class="menu__el"><a href="#four">Résultat</a></li>
+        <li class="menu__el"><a href="#five">Personnellement</a></li>
+      </ul>
+    </nav>
     <h1>
       <spans class="orange">Paw</spans>Sponsor
     </h1>
     <img class="chienNoir" src="assets/images/chien.jpg" alt="">
   </header>
   <main>
-    <section class="rencontre">
+    <section class="rencontre" id="first">
       <h2 class="titre__rencontre">La Rencontre</h2>
       <p class="black">J’ai pris contact avec Florence Marchal et ses employés et bénévols, via l’association La croix
         bleue de Belgique dont l’antenne se trouve à Floriffoux et après avoir expliqué ma démarche, certains
@@ -43,7 +63,7 @@
       <a class="lien" href="https://www.croixbleue.be/refuges/">Découvrir la Croix Bleue de Belgique</a>
     </section>
 
-    <section class="interview">
+    <section class="interview" id="sec">
       <p class="white">Bien que certaines solutions aient déjà été mises en place, telles que l'organisation d'activités
         pour recevoir des dons (comme des promenades de chiens, par exemple), les dons ne sont jamais suffisants.</p>
       <h2 class="titre__interview">L'Interview</h2>
@@ -83,7 +103,7 @@
       <div class="barRight"></div>
     </section>
 
-    <section class="solutions">
+    <section class="solutions" id="third">
       <h2 class="titre__solutions">Les Solutions</h2>
       <img class="Chiens" src="assets/images/3chiens.jpg" alt="#">
       <h3>Le parrainage d'animaux</h3>
@@ -103,7 +123,7 @@
 
     </section>
 
-    <section class="resultat">
+    <section class="resultat" id="four">
       <h2 class="titre__resultat">Un Résultat</h2>
       <p>Les fonds ainsi récoltés grâce au parrainage des animaux et aux partenariats avec les sponsors seraient
         exclusivement dédiés aux besoins des animaux, tout en permettant également de générer des fonds supplémentaires
@@ -117,7 +137,7 @@
       </div>
     </section>
 
-    <section class="perso">
+    <section class="perso" id="five">
       <h2 class="titre__perso">Personnellement</h2>
       <!--image chat-->
       <p class="white">Ce projet me tient beaucoup à cœur car j’aime les animaux et veux ce qui a de mieux pour eux. Je

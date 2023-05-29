@@ -27,6 +27,137 @@ h1 {
     height: 440px;
 }
 
+
+
+/* NAV */
+.menu {
+    z-index: 100;
+    box-sizing: border-box;
+    width: 100%;
+    /* Padding à modifier ? */
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.menu__liste {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    /* Gap à modifier ? */
+    gap: 45px;
+    margin: 0;
+}
+
+.menu__el {
+    margin-bottom: 0;
+}
+
+.menu__el a {
+    font-family: 'Italiana', serif;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    font-size: 25px;
+}
+
+.menu__el a::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    /* Couleru et hauteur à changer ? */
+    height: 2px;
+    background-color: #D9C39A;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+
+.menu__el a:hover::before,
+.menu__el a:focus::before,
+.menu__el--active a::before {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.menu__el--0 {
+    display: none;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/*Burger Menu*/
+@media (max-width: 1019px) {
+    html {
+        /* En fonction de la taille du burger + padding ? */
+        scroll-padding-top: 45px;
+    }
+
+    .menu__burger {
+        cursor: pointer;
+        z-index: 150;
+        margin-left: auto;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: transparent;
+        border: none;
+    }
+
+    .menu__svg {
+        /* Width et height à changer ? */
+        width: 59px;
+        height: 44px;
+        fill: none;
+        stroke: #D9C39A;
+        stroke-width: 3px;
+        transition: stroke 1s;
+    }
+
+    .menu {
+        position: fixed;
+        background-color: transparent;
+        /* Changer le padding ? */
+    }
+
+    .menu__liste {
+        position: fixed;
+        top: -100%;
+        margin: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #404040;
+        transition: all 0.5s;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* Changer le gap ? */
+        gap: 50px;
+        box-sizing: border-box;
+        /* Padding top à changer ? */
+        padding-top: 100px;
+    }
+
+    .menu__el a {
+        /* Font size à changer ? */
+        font-size: 50px;
+    }
+
+    .menu--open .menu__liste {
+        transform: translateY(100%);
+    }
+}
+
 /* Tablette */
 @media (min-width: 768px) {
     h1 {
@@ -48,4 +179,36 @@ h1 {
         left: 35%;
     }
 
+}
+
+
+
+
+@media (min-width: 1020px) {
+    .menu__burger {
+        display: none;
+    }
+
+    .header {
+        padding-bottom: 600px;
+    }
+
+    h1 {
+        font-family: 'Italiana', serif;
+        font-size: 74px;
+        font-size: 108px;
+        position: absolute;
+        z-index: 1;
+        padding-top: 200px;
+        margin-left: 50px;
+
+    }
+
+    /* images*/
+
+    .chienNoir {
+        position: absolute;
+        left: 50%;
+        top: 6%;
+    }
 }
