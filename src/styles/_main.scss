@@ -53,6 +53,7 @@ h3 {
         font-family: 'Be Vietnam Pro', sans-serif;
         font-size: 22px;
         margin: 35px 35px;
+        max-width: 80ch;
 
     }
 
@@ -83,6 +84,14 @@ h3 {
         padding: 2px 10px;
         margin: 0 5px 25px 5px;
 
+
+    }
+}
+
+@media (min-width: 1020px) {
+    h2 {
+
+        font-size: 74px;
 
     }
 }

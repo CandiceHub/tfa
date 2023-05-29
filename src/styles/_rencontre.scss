@@ -16,3 +16,42 @@
     margin: 0 auto;
 
 }
+
+@media (min-width: 1020px) {
+    .titre__rencontre {
+        writing-mode: vertical-lr;
+        text-orientation: mixed;
+        rotate: 180deg;
+        margin-top: 80px;
+    }
+
+    .rencontre__texte {
+        display: grid;
+        grid-template-columns: 145px 870px;
+    }
+
+    .black--texte__rencontre {
+        margin-left: 60px;
+    }
+
+    .rencontre2__texte {
+        display: grid;
+        grid-template-columns: 485px 520px;
+        margin-top: -325px;
+    }
+
+
+
+    /*images*/
+    .Florence {
+        width: 332px;
+        height: 466px;
+        display: flex;
+        margin-left: 140px;
+        margin-top: 45px;
+    }
+
+    .lien {
+        margin: 0 5px 25px 35px;
+    }
+}

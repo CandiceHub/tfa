@@ -107,4 +107,23 @@
     .barRight {
         margin-right: 35px;
     }
+
+}
+
+/*Desktop*/
+@media (min-width: 1020px) {
+    .div__para {
+        display: grid;
+        grid-template-columns: 485px 520px;
+    }
+
+    .interview {
+        background-color: #404040;
+        padding-bottom: 65px;
+        padding-top: 0px;
+        margin-top: -185px;
+
+
+    }
+
 }
