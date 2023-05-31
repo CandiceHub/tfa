@@ -48,10 +48,37 @@
         height: 466px;
         display: flex;
         margin-left: 140px;
-        margin-top: 45px;
+        margin-top: 85px;
     }
 
     .lien {
         margin: 0 5px 25px 35px;
+
     }
+}
+
+@media (min-width: 1280px) {
+    .rencontre__texte {
+        display: grid;
+        grid-template-columns: 180px 1080px;
+    }
+
+    .black--texte__rencontre {
+        margin-left: 115px;
+    }
+
+    .rencontre2__texte {
+        display: grid;
+        grid-template-columns: 575px 700px;
+        margin-top: -325px;
+    }
+
+    .Florence {
+        width: 332px;
+        height: 466px;
+        display: flex;
+        margin-left: 200px;
+        margin-top: 45px;
+    }
+
 }

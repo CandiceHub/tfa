@@ -22,9 +22,33 @@
     margin: 0 auto;
 }
 
+/*tablette*/
 @media (min-width: 768px) {
     .bloc {
         margin: 40px 25px;
 
     }
+}
+
+/*desktop*/
+
+@media (min-width: 1020px) {
+    .titre__resultat {
+        writing-mode: vertical-lr;
+        text-orientation: mixed;
+        rotate: 180deg;
+        margin-bottom: 130px;
+    }
+
+    .resultat__para {
+        display: grid;
+        grid-template-columns: 165px 430px 420px;
+        margin-top: 100px;
+    }
+
+    .chienHeureux {
+        margin-top: 40px;
+    }
+
+
 }
