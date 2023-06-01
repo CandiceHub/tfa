@@ -251,3 +251,20 @@ h1 {
     }
 
 }
+
+@media (min-width: 1920px) {
+    .chienNoir {
+        position: absolute;
+        width: 900px;
+        height: 1017px;
+        left: 51%;
+        top: 7%;
+    }
+
+    h1 {
+        padding-top: 430px;
+        margin-left: 260px;
+    }
+
+
+}

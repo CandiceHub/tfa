@@ -284,3 +284,35 @@
 
 
 }
+
+@media (min-width: 1920px) {
+    .div__para {
+        display: grid;
+        grid-template-columns: 1005px 780px;
+    }
+
+    .titre__interview {
+        color: white;
+        text-align: right;
+        margin-top: 200px;
+        margin-right: 100px;
+        margin-bottom: 25px;
+    }
+
+    .bar__para {
+        display: grid;
+        grid-template-columns: 460px 1000px 460px;
+        margin-top: 100px;
+    }
+
+    .barLeft {
+        margin-left: 160px;
+        margin-top: 105px;
+    }
+
+    .barRight {
+        margin-right: 160px;
+        margin-top: 105px;
+    }
+
+}
