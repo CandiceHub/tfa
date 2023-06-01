@@ -22,7 +22,7 @@
         writing-mode: vertical-lr;
         text-orientation: mixed;
         rotate: 180deg;
-        margin-top: 80px;
+        margin-top: 100px;
     }
 
     .rencontre__texte {
@@ -58,9 +58,17 @@
 }
 
 @media (min-width: 1280px) {
+    .titre__rencontre {
+        writing-mode: vertical-lr;
+        text-orientation: mixed;
+        rotate: 180deg;
+        margin-top: 0px;
+    }
+
     .rencontre__texte {
         display: grid;
-        grid-template-columns: 180px 1080px;
+        grid-template-columns: 195px 1080px;
+        margin-top: 50px;
     }
 
     .black--texte__rencontre {
@@ -70,15 +78,44 @@
     .rencontre2__texte {
         display: grid;
         grid-template-columns: 575px 700px;
-        margin-top: -325px;
+        margin-top: -330px;
     }
 
     .Florence {
-        width: 332px;
-        height: 466px;
+        width: 396px;
+        height: 555px;
         display: flex;
-        margin-left: 200px;
-        margin-top: 45px;
+        margin-left: 170px;
+        margin-top: 5px;
     }
+
+}
+
+@media (min-width: 1600px) {
+
+    .rencontre__texte {
+        display: grid;
+        grid-template-columns: 235px 1210px;
+        margin-top: 50px;
+    }
+
+    .black--texte__rencontre {
+        margin-left: 235px;
+    }
+
+    .rencontre2__texte {
+        display: grid;
+        grid-template-columns: 845px 690px;
+        margin-top: -330px;
+    }
+
+    .Florence {
+        width: 468px;
+        height: 656px;
+        display: flex;
+        margin-left: 335px;
+        margin-top: -45px;
+    }
+
 
 }

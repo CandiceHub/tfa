@@ -16,3 +16,17 @@
         margin-top: 245px;
     }
 }
+
+@media (min-width: 1280px) {
+    .perso {
+        padding-top: 140px;
+        margin-top: -95px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .perso {
+        padding-top: 140px;
+        margin-top: -105px;
+    }
+}

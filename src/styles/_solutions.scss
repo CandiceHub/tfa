@@ -44,6 +44,8 @@
     .titre__solutions {
         color: #D9C39A;
         padding-top: 100px;
+        margin-left: 55px;
+        margin-bottom: 25px;
     }
 
     .barCenter {
@@ -106,6 +108,52 @@
         margin-left: 25px;
     }
 
+
+
+
+}
+
+@media (min-width: 1600px) {
+    .Chiens {
+        width: 481px;
+        height: 575px;
+        display: flex;
+        margin: 0 auto;
+        margin-top: -35px;
+        margin-bottom: 25px;
+    }
+
+    .evenement {
+        width: 480px;
+        height: 619px;
+        display: flex;
+        margin: 0 auto;
+        margin-top: -70px;
+        margin-bottom: 25px;
+    }
+
+    .pic__para {
+        display: grid;
+        grid-template-columns: 750px 110px 710px;
+        margin-top: 150px;
+    }
+
+    .pic__para2 {
+        display: grid;
+        grid-template-columns: 760px 80px 750px;
+        margin-top: 200px;
+        margin-left: 20px;
+    }
+
+    .bar1 {
+        margin-top: 250px;
+        margin-left: -40px;
+    }
+
+    .bar2 {
+        margin-top: 240px;
+        margin-left: 40px;
+    }
 
 
 

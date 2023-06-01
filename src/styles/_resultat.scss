@@ -26,7 +26,7 @@
 @media (min-width: 768px) {
     .bloc {
         margin: 40px 25px;
-
+        padding: 25px 25px;
     }
 }
 
@@ -48,6 +48,54 @@
 
     .chienHeureux {
         margin-top: 40px;
+    }
+
+
+}
+
+@media (min-width: 1280px) {
+    .resultat__para {
+        display: grid;
+        grid-template-columns: 195px 655px 430px;
+        margin-top: 100px;
+    }
+
+    .bloc {
+        margin: 40px 305px;
+        margin-top: -160px;
+        padding: 25px 25px;
+        position: relative;
+        left: -5%;
+        margin-top: -325px;
+    }
+
+    .chienHeureux {
+        width: 400px;
+        height: 400px;
+
+    }
+}
+
+@media (min-width: 1600px) {
+    .resultat__para {
+        display: grid;
+        grid-template-columns: 235px 800px 500px;
+        margin-top: 100px;
+    }
+
+    .chienHeureux {
+        width: 500px;
+        height: 500px;
+
+    }
+
+    .bloc {
+        margin: 40px 455px;
+        margin-top: -160px;
+        padding: 25px 25px;
+        position: relative;
+        left: -1%;
+        margin-top: -245px;
     }
 
 

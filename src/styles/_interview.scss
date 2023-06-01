@@ -134,7 +134,9 @@
     .titre__interview {
         color: white;
         text-align: right;
-        margin-top: 100px;
+        margin-top: 200px;
+        margin-right: 55px;
+        margin-bottom: 25px;
     }
 
     .num__question {
@@ -186,7 +188,7 @@
         background-color: #404040;
         padding-bottom: 65px;
         padding-top: 0px;
-        margin-top: -235px;
+        margin-top: -275px;
 
 
     }
@@ -245,6 +247,40 @@
         margin-top: 100px;
     }
 
+
+
+}
+
+@media (min-width: 1600px) {
+    .div__para {
+        display: grid;
+        grid-template-columns: 845px 690px;
+    }
+
+    .interview {
+        background-color: #404040;
+        padding-bottom: 65px;
+        padding-top: 0px;
+        margin-top: -315px;
+
+
+    }
+
+    .bar__para {
+        display: grid;
+        grid-template-columns: 300px 1000px 300px;
+        margin-top: 100px;
+    }
+
+    .barLeft {
+        margin-left: 85px;
+        margin-top: 105px;
+    }
+
+    .barRight {
+        margin-right: 85px;
+        margin-top: 105px;
+    }
 
 
 }
