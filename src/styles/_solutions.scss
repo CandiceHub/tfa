@@ -113,6 +113,37 @@
 
 }
 
+@media (min-width: 1400px) {
+    .pic__para {
+        display: grid;
+        grid-template-columns: 520px 100px 760px;
+        margin-top: 50px;
+    }
+
+    .pic__para2 {
+        display: grid;
+        grid-template-columns: 760px 100px 540px;
+        margin-top: 50px;
+    }
+
+    .bar1 {
+        background-color: #D9C39A;
+        width: 100px;
+        height: 5px;
+        margin-top: 240px;
+        margin-left: -30px;
+    }
+
+    .bar2 {
+        background-color: #D9C39A;
+        width: 100px;
+        height: 5px;
+        margin-top: 240px;
+        margin-left: 35px;
+    }
+
+}
+
 @media (min-width: 1600px) {
     .Chiens {
         width: 481px;

@@ -91,6 +91,33 @@
 
 }
 
+@media (min-width: 1400px) {
+    .rencontre__texte {
+        display: grid;
+        grid-template-columns: 205px 1150px;
+        margin-top: 50px;
+    }
+
+    .rencontre2__texte {
+        display: grid;
+        grid-template-columns: 675px 700px;
+        margin-top: -330px;
+    }
+
+    .Florence {
+        width: 396px;
+        height: 555px;
+        display: flex;
+        margin-left: 265px;
+        margin-top: 5px;
+    }
+
+    .black--texte__rencontre {
+        margin-left: 225px;
+    }
+
+}
+
 @media (min-width: 1600px) {
 
     .rencontre__texte {
