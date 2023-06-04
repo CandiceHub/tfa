@@ -17,6 +17,18 @@
     position: relative;
     padding-top: 114px;
 
+    @keyframes slideIn2 {
+        0% {
+            transform: translateZ(-100%);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateZ(0);
+            opacity: 50%;
+        }
+    }
+
     .numero {
         font-family: 'Italiana', serif;
         color: #D9C39A;
@@ -27,6 +39,8 @@
         top: 0;
         padding: 0;
         line-height: 0.7;
+        animation: slideIn2 5s .5s forwards;
+
     }
 
     .question {
