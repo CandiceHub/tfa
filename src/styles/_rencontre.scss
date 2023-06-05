@@ -121,6 +121,22 @@
 
 }
 
+@media (min-width: 1450px) {
+    .rencontre__texte {
+        display: grid;
+        grid-template-columns: 205px 1220px;
+        margin-top: 50px;
+    }
+
+    .rencontre2__texte {
+        display: grid;
+        grid-template-columns: 715px 710px;
+        margin-top: -330px;
+    }
+
+
+}
+
 @media (min-width: 1600px) {
 
     .rencontre__texte {

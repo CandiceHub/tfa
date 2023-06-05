@@ -325,6 +325,20 @@
 
 }
 
+@media (min-width: 1450px) {
+    .div__para {
+        display: grid;
+        grid-template-columns: 715px 710px;
+    }
+
+    .bar__para {
+        display: grid;
+        grid-template-columns: 225px 1000px 225px;
+        margin-top: 100px;
+    }
+
+}
+
 @media (min-width: 1600px) {
     .div__para {
         display: grid;
