@@ -4,6 +4,14 @@ body {
 }
 
 /* En général*/
+.logo {
+    width: 120px;
+    height: 120px;
+    margin-left: 20px;
+    position: absolute;
+    z-index: 100;
+}
+
 h2 {
     font-family: 'Italiana', serif;
     font-size: 43px;
