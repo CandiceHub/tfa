@@ -23,9 +23,8 @@ h1 {
     font-weight: 300;
     color: white;
     text-align: center;
-    padding-top: 140px;
+    padding-top: 200px;
     padding-bottom: 20px;
-    padding-top: 90px;
     margin-top: 0;
     animation: slideIn 3s .2s forwards;
 
@@ -273,9 +272,24 @@ h1 {
         width: 450px;
         height: 508px;
         left: 55%;
-        top: 5%;
+        top: 10%;
     }
 
+}
+
+@media (min-width: 1450px) {
+    h1 {
+        padding-top: 220px;
+        margin-left: 100px;
+    }
+
+    .chienNoir {
+        position: absolute;
+        width: 450px;
+        height: 508px;
+        left: 60%;
+        top: 10%;
+    }
 }
 
 
@@ -298,8 +312,8 @@ h1 {
 @media (min-width: 1920px) {
     .chienNoir {
         position: absolute;
-        width: 900px;
-        height: 1017px;
+        width: 763px;
+        height: 862px;
         left: 51%;
         top: 7%;
     }
