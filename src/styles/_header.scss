@@ -24,8 +24,7 @@ h1 {
     color: white;
     text-align: center;
     margin-top: 0;
-    padding-bottom: 50px;
-    padding-top: 150px;
+    padding-top: 90px;
     animation: slideIn 3s .2s forwards;
 
 }
@@ -191,9 +190,9 @@ h1 {
         position: relative;
         text-align: left;
         margin-left: 100px;
-        padding-top: 240px;
+        padding-top: 120px;
         margin-bottom: 0;
-        padding-bottom: 25px;
+
 
     }
 
@@ -241,8 +240,8 @@ h1 {
 @media (min-width: 1280px) {
     .chienNoir {
         position: absolute;
-        width: 625px;
-        height: 706px;
+        width: 450px;
+        height: 508px;
         left: 50%;
         top: 1%;
     }
@@ -266,8 +265,8 @@ h1 {
 
     .chienNoir {
         position: absolute;
-        width: 625px;
-        height: 706px;
+        width: 450px;
+        height: 508px;
         left: 55%;
         top: 5%;
     }
