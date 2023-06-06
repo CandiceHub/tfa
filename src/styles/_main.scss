@@ -79,9 +79,10 @@ h3 {
 }
 
 .reveal2 {
-    transform: translateX(150px);
+    transform: translateX(50px);
     opacity: 0;
     transition: 2s all ease;
+
 }
 
 .reveal2.active {
