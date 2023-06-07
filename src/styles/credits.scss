@@ -25,6 +25,33 @@
 
 }
 
+.lienCredits {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid;
+    margin: 0px 5px;
+    transition: color 0.5s, border-color 0.5s;
+
+    &:visited {
+        color: lightgrey;
+        border-bottom: 2px solid;
+
+    }
+
+    &:hover,
+    :focus {
+        color: #D9C39A;
+        border-bottom: 4px solid;
+    }
+
+    &:active {
+        color: #D9C39A;
+    }
+}
+
 @media (min-width: 768px) {
     .credits_liste {
         font-size: 22px;
