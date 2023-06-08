@@ -6,8 +6,8 @@ body {
 
 /* En général*/
 .logo {
-    width: 120px;
-    height: 120px;
+    width: 70px;
+    height: 70px;
     margin-left: 20px;
     position: absolute;
     z-index: 100;
@@ -237,6 +237,14 @@ footer {
 
 /* Tablette */
 @media (min-width: 768px) {
+    .logo {
+        width: 120px;
+        height: 120px;
+        margin-left: 20px;
+        position: absolute;
+        z-index: 100;
+    }
+
     p {
         font-family: 'Be Vietnam Pro', sans-serif;
         font-size: 22px;
