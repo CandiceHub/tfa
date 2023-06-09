@@ -162,7 +162,7 @@ footer {
     color: white;
     display: inline-block;
     padding: 0;
-    margin: 15px;
+    margin: 10px;
     list-style: none;
 
 }
@@ -234,7 +234,10 @@ footer {
 }
 
 video {
-    z-index: 0;
+
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 25px;
 }
 
 

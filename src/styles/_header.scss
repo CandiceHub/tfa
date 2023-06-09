@@ -30,10 +30,6 @@ h1 {
 
 }
 
-
-
-
-
 .orange {
 
     color: #D9C39A;
@@ -47,8 +43,8 @@ h1 {
 /* images*/
 
 .chienNoir {
-    width: 390px;
-    height: 440px;
+    width: 360px;
+    height: 407px;
     margin: 0 auto;
     display: flex;
 }
@@ -184,6 +180,8 @@ h1 {
         transform: translateY(100%);
     }
 }
+
+
 
 /* Tablette */
 @media (min-width: 768px) {
